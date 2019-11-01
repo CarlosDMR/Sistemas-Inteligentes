@@ -61,6 +61,46 @@ namespace Laberito.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hat_man1 {
+            get {
+                object obj = ResourceManager.GetObject("Hat_man1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hat_man2 {
+            get {
+                object obj = ResourceManager.GetObject("Hat_man2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hat_man3 {
+            get {
+                object obj = ResourceManager.GetObject("Hat_man3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Hat_man4 {
+            get {
+                object obj = ResourceManager.GetObject("Hat_man4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
         ///1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1
         ///1 1 0 1 1 1 0 1 0 1 1 1 1 1 0 1 0 1 1 1 1 1 0 1 1 1 0 1 1 1 0 1 1
@@ -73,17 +113,6 @@ namespace Laberito.Properties {
         internal static string Laberinto {
             get {
                 return ResourceManager.GetString("Laberinto", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Busca una cadena traducida similar a 0 0 0
-        ///0 1 0
-        ///0 0 0.
-        /// </summary>
-        internal static string TextFile1 {
-            get {
-                return ResourceManager.GetString("TextFile1", resourceCulture);
             }
         }
     }
